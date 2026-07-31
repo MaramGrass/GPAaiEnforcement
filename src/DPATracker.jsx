@@ -320,7 +320,7 @@ export default function DPATracker() {
             <footer className="foot">
               <div className="foot__l">
                 <div className="brand__mark"><img src="/gpa-logo.png" alt="" /></div>
-                Global Privacy Assembly · DPA Enforcement Tracker · Created by the AI Working Group
+                Global Privacy Assembly · AI Enforcement Tracker · Created by the Isle of Man Information Commissioner and the Agencia de Gobierno electrónico y Sociedad de la Información y del Conocimiento
               </div>
               <div className="foot__r">Always verify with primary sources.</div>
             </footer>
