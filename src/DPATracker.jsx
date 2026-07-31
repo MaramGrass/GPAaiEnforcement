@@ -151,7 +151,7 @@ export default function DPATracker() {
             <div className="brand__mark"><img src="/gpa-logo.png" alt="" /></div>
             <div>
               <div className="brand__name">Global Privacy Assembly</div>
-              <div className="brand__sub">DPA Enforcement Tracker</div>
+              <div className="brand__sub">AI Enforcement Tracker</div>
             </div>
           </div>
           <div className="spacer" />
