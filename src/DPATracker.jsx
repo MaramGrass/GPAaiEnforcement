@@ -258,7 +258,17 @@ export default function DPATracker() {
                     <div className="entry__row" onClick={() => toggleRow(r.id || i)}>
                       <div className="e-date">{formatDate(r.date)}</div>
                       <div className="e-auth">
-                        {r.countryCode && <span className="cc">{r.countryCode.toUpperCase()}</span>}
+                        {r.countryCode && (
+                          <span className="flag-slot">
+                            <img
+                              className="flag"
+                              src={`/flags/${r.countryCode.toLowerCase()}.svg`}
+                              alt=""
+                              loading="lazy"
+                              onError={e => { e.currentTarget.style.display = "none"; }}
+                            />
+                          </span>
+                        )}
                         <div className="e-auth__t">
                           <div className="e-dpa">{r.dpa}</div>
                           <div className="e-country">{r.country}</div>
